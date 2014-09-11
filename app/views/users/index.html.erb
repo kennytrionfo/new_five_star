@@ -1,2 +1,11 @@
 <h1>Users#index</h1>
 <p>Find me in app/views/users/index.html.erb</p>
+
+<h1> Users </h1>
+<% @users.each do |user| %>
+    <h2><%= user.first_name %></h2>
+    <h3><%= user.last_name %></h2>
+    <p><%= user.email %></p>
+    <p><%= user.phone_number %></p>
+    <%= link_to 'Show user', users_show_path(user.id) %>
+<% end %>
