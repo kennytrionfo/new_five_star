@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'site/index'
+
+  get 'site/home_health'
+
+  get 'site/hospice'
+
+  get 'site/careers'
+
+  get 'site/espanol'
+
+  get 'site/contact'
+
   get 'users/index'
 
   get 'users/show'
