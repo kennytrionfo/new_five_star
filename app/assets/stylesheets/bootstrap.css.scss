@@ -178,8 +178,8 @@ textarea {
 
 select{ padding:12px 9px 9px}
 
-input[type="text"], 
-input[type="email"], 
+input[type="text"],
+input[type="email"],
 input[type="number"],
 select{  width: 48%; height:40px; outline:none;}
 textarea{ width:98%; height:270px; resize:none; outline:none;}
@@ -515,7 +515,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	
+
   text-transform:uppercase;
   font-weight: 500;
   line-height: 1.1;
@@ -1954,8 +1954,8 @@ legend {
 label {
   display: inline-block;
   margin-bottom: 5px;
-  font-size:14px; 
-  color:#a5a5a5; 
+  font-size:14px;
+  color:#a5a5a5;
   padding-top:6px;
   width:33%;
 }
@@ -3749,7 +3749,7 @@ fieldset[disabled] .btn-dark.active {
     right: 0;
     left:auto;
   }
-  
+
 }
 
 .btn-default .caret {
@@ -4718,7 +4718,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 	.navbar-collapse.navbar-right{ padding-left:0}
 	.dropdown, .navbar-nav li.mega-menu-item {
     padding-bottom: 5px;}
-	
+
 }
 
 @media (min-width: 768px) {
@@ -5980,7 +5980,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-group .panel-heading + .panel-collapse .panel-body {
- 
+
 }
 
 .panel-group .panel-footer {
@@ -6805,7 +6805,7 @@ bottom: auto;
     left: auto;
     padding-bottom:0;
   }
-  
+
 }
 .carousel-indicators {
     top:-85px;
@@ -7279,7 +7279,7 @@ td.hidden-lg {
   td.hidden-lg.hidden-xs {
     display: none !important;
   }
-  .fixed-header .medicom-header{ position:relative !important; top:0 !;}
+  .fixed-header .medicom-header{ position:relative !important; top:0 !important;}
   .fixed-header .content-index, .fixed-header .sub-page-banner{ margin-top:0 !important;}
   .fixed-header.small-header .medicom-header{ min-height:90px!important; height:auto !important; top:0 !important;}
   .fixed-header.small-header .medicom-header .navbar-brand img {
@@ -7311,7 +7311,7 @@ td.hidden-lg {
 	}
 	.service-box.one, .service-box.two, .service-box.three{ border:0; border-bottom:1px solid #E5E5E5}
 	.video-inner-content{
-		display:none;	
+		display:none;
 	}
 	.creative-sec{ background:none;}
 	.creative-sec-thumb.one, .creative-sec-thumb.two, .creative-sec-thumb.three, .creative-sec-thumb.four{ position:static; display:block}
@@ -7328,7 +7328,7 @@ td.hidden-lg {
 		left: 50%;
 		margin-left: -128px;
 	}
-	
+
 	.creative-sec-thumb.three .overlay {
 		left: 50%;
 		margin-left: -76px;
@@ -7339,10 +7339,10 @@ td.hidden-lg {
 		margin-left: -145px;
 		width: 290px;
 	}
-	.medicom-awesome-features-sec{ 
+	.medicom-awesome-features-sec{
 		height:auto; padding-bottom:0;
 	}
-	.tab-slider{ 
+	.tab-slider{
 		display:none
 	}
 	.awesome-features {
@@ -7350,7 +7350,7 @@ td.hidden-lg {
 		width: 100%;
 	}
 	.media.pull-right, .media.pull-left{
-		float:none !important; margin:0 0 40px !important;	
+		float:none !important; margin:0 0 40px !important;
 	}
 	.piechart-section .chart {
 		display: block;
@@ -7363,7 +7363,7 @@ td.hidden-lg {
 	.latest-news2 .jcarousel-container{ width:auto;}
 	.jcarousel-container{ width:480px; margin:0 auto;}
 	.team-description .jcarousel-skin-tango .jcarousel-item-horizontal{ width:480px;}
-	
+
 	.team-description {
 		padding-left:0;
 	}
@@ -7378,7 +7378,7 @@ td.hidden-lg {
 		width: 100%;
 	}
 	.contact-form{ padding-bottom:30px;}
-	.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="number"], .contact-form2 	
+	.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="number"], .contact-form2
 	.contact-form textarea{ width:100%; margin-right:0;}
 	.get-directions input[type="text"]{ width:60%; font-size:20px}
 	.social-rounded.contact{ padding-bottom:30px;}
@@ -7409,22 +7409,22 @@ td.hidden-lg {
 	.back ul li {margin: 0 4px 0 0;}
 
 }
-@media (max-width: 480px){	
+@media (max-width: 480px){
 	.anythingSlider {
 		height: 420px !important;
 	}
 	.slider-caption {
 		display:none;
 	}
-	.appointment-form input[type="text"], 
-	.appointment-form  input[type="email"], 
-	.appointment-form  input[type="number"], 
-	.appointment-form select, 
-	.appointment-form textarea{ 
-		width:100%; 
+	.appointment-form input[type="text"],
+	.appointment-form  input[type="email"],
+	.appointment-form  input[type="number"],
+	.appointment-form select,
+	.appointment-form textarea{
+		width:100%;
 		margin-right:0;
 	}
-	.appointment-form div.selector{ 
+	.appointment-form div.selector{
 		width:100% !important;
 	}
 	h1, .h1 {
@@ -7440,7 +7440,7 @@ td.hidden-lg {
 	.blog2-thumbnail, .testimonials2-img, .blog-full-width-date{
 		display:none;
 	}
-	.blog2-content, .testimonials2-content, .blog-full-width .blog-content{ 
+	.blog2-content, .testimonials2-content, .blog-full-width .blog-content{
 		padding-left:0 !important;
 	}
 	.appointment-sec2 {
@@ -7449,13 +7449,13 @@ td.hidden-lg {
 	.appointment-sec2 input[type="text"], .appointment-sec2 input[type="email"], .appointment-sec2 input[type="number"], .appointment-sec2 textarea{
 		width:61%;
 	}
-	.appointment-sec2 .selector{ 
+	.appointment-sec2 .selector{
 		width:61% !important;
 	}
-	.testimonials2{ 
+	.testimonials2{
 		padding:20px 10px;
 	}
-	.testimonials2 .carousel-indicators{ 
+	.testimonials2 .carousel-indicators{
 		left:20%
 	}
 	.awesome-features {
@@ -7478,7 +7478,7 @@ td.hidden-lg {
 		width: 100%;
 		margin-bottom:30px;
 	}
-	.doctors-img img{ width:100%;}	
+	.doctors-img img{ width:100%;}
 	.doctors-detail{ padding-left:0}
 	.home-box{ padding-bottom:50px;}
 	.cart-buttons .pull-right{ text-align:center; float:none !important;}
@@ -7509,7 +7509,8 @@ td.hidden-lg {
 		top: 30% !important;
 	}
 	.slider-caption p{ font-size:2.4em !important; padding:15px 30px 8px}
-	{ height:auto;}
+	/*{ height:auto;}*/
+  /*commented above out when got error msg in broswer when running in webrick*/
 	.about-sec{ height:auto;}
 	.about-sec #counters .col-md-3{display: inline-block;
     width: 49%;}
@@ -7529,7 +7530,7 @@ td.hidden-lg {
 		left: 50%;
 		margin-left: -128px;
 	}
-	
+
 	.creative-sec-thumb.three .overlay {
 		left: 50%;
 		margin-left: -76px;
@@ -7540,10 +7541,10 @@ td.hidden-lg {
 		margin-left: -145px;
 		width: 290px;
 	}
-	.medicom-awesome-features-sec{ 
+	.medicom-awesome-features-sec{
 		height:auto; padding-bottom:0;
 	}
-	.tab-slider{ 
+	.tab-slider{
 		display:none
 	}
 	.awesome-features {
@@ -7678,16 +7679,3 @@ td.visible-print {
     display: none !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

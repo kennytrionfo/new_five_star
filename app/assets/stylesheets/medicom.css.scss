@@ -282,46 +282,47 @@ img {
 	background:url(../images/banner-img.jpg) no-repeat center top;
 	height:750px;
 }
-{ 
-	text-align:center;
-	position:relative;
-}
-.main-banner img{ 
+// {
+// 	text-align:center;
+// 	position:relative;
+// }
+// don't know what above is to yet but brower threw an error and syntax is obviously off so commenting out
+.main-banner img{
 	width:100% ;
 }
-.main-banner .carousel-indicators{ 
-	bottom:0; 
+.main-banner .carousel-indicators{
+	bottom:0;
 	top:auto;
 }
 .main-banner .carousel-indicators li {
-	width:50px; 
-	height:6px; 
-	background:#889BAF; 
-	opacity:.8; 
+	width:50px;
+	height:6px;
+	background:#889BAF;
+	opacity:.8;
 	margin:0 1px 0 0;
 }
 
-.main-banner .carousel-indicators .active, .main-banner .carousel-indicators li:hover{ 
-	background:#fff; 
+.main-banner .carousel-indicators .active, .main-banner .carousel-indicators li:hover{
+	background:#fff;
 	opacity:1;
 }
 
-.slider-caption{ 
+.slider-caption{
 	position:absolute;
 	top:33%;
 	text-align:center;
 	height:auto;
 	width:100%;
 }
-.slider-caption p{ 
-	padding:25px 60px 14px; 
-	background:#fff; 
-	font-size:60px; 
-	color:#4c4c4c; 
-	text-transform:uppercase; 
+.slider-caption p{
+	padding:25px 60px 14px;
+	background:#fff;
+	font-size:60px;
+	color:#4c4c4c;
+	text-transform:uppercase;
 	display:inline-block;
-	font-family: 'SourceSansProLight'; 
-	line-height:54px; 
+	font-family: 'SourceSansProLight';
+	line-height:54px;
 	margin-bottom:4px;
 }
 .slider-caption p span{
@@ -958,7 +959,8 @@ footer.light .copyright {
 footer.light .footer-bottom-text {
 	color:#6c6c6c;
 	padding-top:10px;
-footer-widget
+}
+footer-widget {
 }
 /*dark*/
 footer.dark {
@@ -998,7 +1000,8 @@ footer.dark .copyright {
 footer.dark .footer-bottom-text {
 	color:#757575;
 	padding-top:10px;
-footer-widget
+}
+footer-widget {
 }
 .footer-widget p {
 	margin-bottom:10px;
@@ -1494,7 +1497,6 @@ footer-widget
 	top:0;
 	width:100%;
 	height:100%;
-s
 }
 .medicom-awesome-features-sec h1 {
 	color:#fff;
@@ -1956,7 +1958,7 @@ s
 	margin-bottom:0;
 }
 .meet-the-doctors h2{
-	max-width:1112px; 
+	max-width:1112px;
 	margin:0 auto;
 }
 .team-member-description {
@@ -2190,14 +2192,14 @@ i.feature-icon {
 	color:#373737;
 	text-transform:none;
 }
-.best-seller h4, .best-seller h4 a{ 
+.best-seller h4, .best-seller h4 a{
 	line-height:21px;
 }
 .popular-post p, .best-seller p{
 	line-height:14px;
 	margin-bottom:0
 }
-.popular-post p strong, .best-seller p strong{ 
+.popular-post p strong, .best-seller p strong{
 	font-size:18px;
 	font-family: 'SourceSansProSemibold';
 	font-weight:400;
@@ -2531,37 +2533,37 @@ i.feature-icon {
 
 /*shop*/
 
-.shop-banner{ 
-	background:url(../images/shop-slider-bg.jpg) no-repeat center top; 
-	height:572px; 
-	background-size:cover; 
+.shop-banner{
+	background:url(../images/shop-slider-bg.jpg) no-repeat center top;
+	height:572px;
+	background-size:cover;
 	text-align:left
 }
-.shop-banner .slider-text{ 
-	float:left; 
-	width:54%; 
+.shop-banner .slider-text{
+	float:left;
+	width:54%;
 	padding:105px 0 0;
 }
 .shop-banner .slider-text h1{
-	font-family: 'SourceSansProLight'; 
+	font-family: 'SourceSansProLight';
 	margin:0
 }
-.shop-banner .slider-text p{ 
-	color:#646464; 
+.shop-banner .slider-text p{
+	color:#646464;
 	margin:10px 0;
 }
-.shop-banner .slider-text ul{ 
+.shop-banner .slider-text ul{
 	padding-bottom:0;
 }
-.shop-banner .slider-image{ 
-	float:right; 
-	width:46%; 
+.shop-banner .slider-image{
+	float:right;
+	width:46%;
 	padding:40px 0 0;
 }
-.shop-banner img{ 
+.shop-banner img{
 	float:right
 }
-.shop-banner .carousel, .shop-banner .carousel-inner, .shop-banner .carousel-inner .item{ 
+.shop-banner .carousel, .shop-banner .carousel-inner, .shop-banner .carousel-inner .item{
 	height:572px;
 }
 .shop-banner .carousel .carousel-indicators{
@@ -2569,14 +2571,14 @@ i.feature-icon {
     top: auto
 }
 /*review comment*/
-#comments .comment-text{ 
+#comments .comment-text{
 	padding-left:80px;
 }
-#comments .comment-text .meta{ 
+#comments .comment-text .meta{
 	margin-bottom:5px;
 	font-size:14px;
 }
-#comments .comment-text .description{ 
+#comments .comment-text .description{
 	font-size:14px;
 }
 #comments .commentlist{
@@ -2619,39 +2621,39 @@ i.feature-icon {
     text-align: center;
     width: 42px;
 }
-.product{ 
-	padding:7px; 
-	border:1px solid #f2f2f2; 
-	float:left; 
-	width:32%; 
-	margin:0 0 20px 2%; 
-	text-align:center; 
-	border-radius:5px; 
-	-moz-border-radius:5px; 
+.product{
+	padding:7px;
+	border:1px solid #f2f2f2;
+	float:left;
+	width:32%;
+	margin:0 0 20px 2%;
+	text-align:center;
+	border-radius:5px;
+	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 }
-.product:nth-child(3n+1){ 
+.product:nth-child(3n+1){
 	margin-left:0
 }
-.product-thumb{ 
+.product-thumb{
 	background:#ededed
 }
-.product h4{ font-size:16px; 
-	color:#646363; 
-	margin:21px 0 0; 
+.product h4{ font-size:16px;
+	color:#646363;
+	margin:21px 0 0;
 	line-height:14px;
 }
-.product p{ 
-	font-size:12px; 
-	color:#646363; 
-	text-transform:uppercase; 
+.product p{
+	font-size:12px;
+	color:#646363;
+	text-transform:uppercase;
 	margin:0;
 }
-.price-rating{ 
+.price-rating{
 	padding:20px 0 0;
 }
-.price-rating .price{ 
-	float:left; 
+.price-rating .price{
+	float:left;
 	font-size:24px;
 	padding-left:3px;
 }
@@ -2662,12 +2664,12 @@ i.feature-icon {
 	float:right;
 	margin:5px 0 0 5px;
 }
-.price-rating .rating{ 
-	float:right; 
-	list-style:none; 
+.price-rating .rating{
+	float:right;
+	list-style:none;
 	padding:0;
 }
-.price-rating .rating li:before{ 
+.price-rating .rating li:before{
 	font-size:15px; color:#f1f1f1;
 }
 .price-rating .rating {
@@ -2684,30 +2686,30 @@ i.feature-icon {
 .price-rating .rating > li:hover ~ li:before {
    color:#ffb200; cursor:pointer;
 }
-.sperator{ 
+.sperator{
 	border-bottom:1px solid #efefef;
-	border-top:1px solid #efefef; 
-	padding:2px 0; 
-	display:block; 
+	border-top:1px solid #efefef;
+	padding:2px 0;
+	display:block;
 	margin:17px 0 0;
 }
-.product .ad-to-cart{ 
-	display:block; 
-	font-size:13px; 
-	color:#525252; 
-	text-transform:uppercase; 
+.product .ad-to-cart{
+	display:block;
+	font-size:13px;
+	color:#525252;
+	text-transform:uppercase;
 	padding:15px 0 12px;
 }
-.product .ad-to-cart i{ 
-	display:inline-block; 
-	margin-right:8px; 
+.product .ad-to-cart i{
+	display:inline-block;
+	margin-right:8px;
 	font-size:17px;
 	content: "\2605";
 }
 
-.product:hover{ 
-	box-shadow:0 0 15px 5px #E7E7E7; 
-	-webkit-box-shadow:0 0 15px 5px #E7E7E7; 
+.product:hover{
+	box-shadow:0 0 15px 5px #E7E7E7;
+	-webkit-box-shadow:0 0 15px 5px #E7E7E7;
 	-moz-box-shadow:0 0 15px 5px #E7E7E7;
 }
 .poll .radio{ float:left;}
