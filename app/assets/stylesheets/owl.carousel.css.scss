@@ -41,7 +41,7 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-
+	
 .owl-carousel .owl-item{
 	float: left;
 	padding: 0 15px;
@@ -49,7 +49,7 @@
 	font-size:14px;
 	text-align:left;
 	cursor:move
-
+	
 }
 .owl-carousel .owl-item .item{/*width:359px !important;*/}
 .owl-carousel .owl-item .item img{ margin-bottom:20px;}
@@ -90,7 +90,7 @@
 }
 
 /* mouse grab icon */
-.grabbing {
+.grabbing { 
     cursor:url(grabbing.png) 8 8, move;
 }
 
